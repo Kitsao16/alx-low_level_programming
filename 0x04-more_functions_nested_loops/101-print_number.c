@@ -6,21 +6,21 @@
  */
 void print_number(int n)
 {
-	unsigned int d1;
+	unsigned int n1;
 
 	if (n < 0)
 	{
-		d1 = -n;
+		n1 = -n;
 		_putchar('_');
 	} else
 	{
-		d1 = n;
+		n1 = n;
 	}
 
-	if (d1 / 10)
+	if (n1 / 10)
 	{
-		print_number(d1 / 10);
+		print_number(n1 / 10);
 	}
 
-	_putchar((d1 % 10) + '0');
+	_putchar((n1 % 10) + '0');
 }
