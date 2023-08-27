@@ -6,7 +6,7 @@
  * @n: input variable for pointer n
  * Return: n(input variable)
  */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }

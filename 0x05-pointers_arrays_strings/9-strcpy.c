@@ -7,7 +7,7 @@
  * @src: copies the string pointed to by src
  * Return: always 0
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int l = 0;
 	int i;
